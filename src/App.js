@@ -14,10 +14,12 @@ function App() {
       <SidePanel />
       <div className="App__content">
         <Nav />
-        <Card image={BikeImg} />
-        <Card image={SillyImg} />
-        <Card image={HannahImg} />
-        <Card image={SophImg} />
+        <div className="App__cards">
+          <Card image={SophImg} />  
+          <Card image={SillyImg} />
+          <Card image={BikeImg} />
+          <Card image={HannahImg} />
+        </div>
       </div>
     </div>
   );

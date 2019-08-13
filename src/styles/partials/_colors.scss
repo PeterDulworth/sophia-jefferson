@@ -94,3 +94,6 @@ $colors: (
 @function get-color($color-name, $color-variant: core) {
     @return map-get(map-get($colors, $color-name), $color-variant);
 }
+
+$background: #111216;
+$accent: get-color(pink, pastel);
