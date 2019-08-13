@@ -1,0 +1,14 @@
+.App {
+  text-align: center;
+  background: get-color(other, dark);
+  width: 100vw;
+  min-height: 100vh;
+
+  // font-family: 'Fira Mono', monospace;
+  font-family: 'Maven Pro', 'Helvetica Neue', sans-serif;
+}
+
+.App__content {
+  position: relative;
+  padding: 0 13rem;
+}

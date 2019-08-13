@@ -1,0 +1,44 @@
+.SidePanel__wrapper {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    position: absolute;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    z-index: 10;
+}
+
+.SidePanel {
+    min-height: 100px;
+    padding: 2rem 0;
+    width: 150px;
+
+    background: get-color(black, 800);
+    border-radius: 0.5rem;
+    box-shadow: 0 0 5px 1px rgba(0, 0, 0, 0.1);
+    color: white;
+
+    transform: translateX(-130px);
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    transition: all 500ms ease;
+}
+
+.SidePanel:hover {
+    transform: translateX(-20px);
+}
+
+.SidePanel__links {
+
+}
+
+.SidePanel__link {
+    font-weight: bold;
+    padding: 0.5rem 0;
+}
