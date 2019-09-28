@@ -5,7 +5,7 @@
 }
 
 .Work__headlines {
-  margin: 5rem 0;
+  margin: 6rem 0;
 }
 
 .Work__headline {
@@ -43,4 +43,9 @@
   justify-content: flex-start;
   align-content: flex-start;
   padding-bottom: 5rem;
+
+  //opacity: 0;
+  //animation: fade-up 1200ms ease;
+  //animation-delay: 1200ms;
+  //animation-fill-mode: forwards;
 }

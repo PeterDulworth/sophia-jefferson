@@ -9,7 +9,7 @@ const Nav = ({ links, active }) => {
                 SJ
             </div>
             <div className="Nav__content">
-                {links.map((l, i) => <Link to={l.href} key={i} className={`Nav__link ${active === l.href ? 'Nav__link--active' : ''}`}>{l.label}</Link>)}
+                {links.map((l, i) => <Link to={process.env.PUBLIC_URL + l.href} key={i} className={`Nav__link ${active === l.href ? 'Nav__link--active' : ''}`}>{l.label}</Link>)}
             </div>
         </nav>
     );
