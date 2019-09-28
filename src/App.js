@@ -1,9 +1,8 @@
 import React from 'react';
 import './styles/_index.scss';
-import { BrowserRouter, Route, Switch } from "react-router-dom";
+import { BrowserRouter, Route, Switch } from 'react-router-dom';
 import AboutMe from './pages/AboutMe';
 import Work from './pages/Work';
-
 
 function App() {
     return (
@@ -20,7 +19,7 @@ function App() {
 }
 
 const Error = () => {
-    return "no match";
+    return "404 page not found";
 };
 
 export default App;

@@ -1,10 +1,22 @@
-import React from 'react';
+import React, { useState } from 'react';
 import PropTypes from 'prop-types';
 
-const WorkItem = ({ src }) => {
+const WorkItem = ({ src, description }) => {
+    const imgDiv = <img src={src} alt="work item"/>;
+    const [content, setContent] = useState(imgDiv);
+
+    const handleMouseEnter = () => {
+        const descriptionDiv = <div className="WorkItem__description">{description}</div>;
+        setContent(descriptionDiv);
+    };
+
+    const handleMouseLeave = () => {
+        setContent(imgDiv);
+    };
+
     return (
-        <div className="WorkItem">
-            <img src={src} alt="work item"/>
+        <div className="WorkItem" onMouseEnter={handleMouseEnter} onMouseLeave={handleMouseLeave}>
+            {content}
         </div>
     );
 };

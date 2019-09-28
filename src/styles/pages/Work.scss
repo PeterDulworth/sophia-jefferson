@@ -2,9 +2,14 @@
   position: relative;
   margin: 0 13rem;
   padding-top: 5rem;
+
+  @media (max-width: 1000px) {
+    margin: 0 5rem;
+  }
 }
 
 .Work__headlines {
+  min-height: 30vh;
   margin: 6rem 0;
 }
 
@@ -33,6 +38,10 @@
     animation-delay: 800ms;
     animation-fill-mode: forwards;
   }
+
+  @media (max-width: 1000px) {
+    text-align: center;
+  }
 }
 
 .Work__content {
@@ -40,9 +49,14 @@
   width: 100%;
 
   display: flex;
+  flex-direction: row;
   justify-content: flex-start;
   align-content: flex-start;
   padding-bottom: 5rem;
+
+  @media (max-width: 1000px) {
+    flex-direction: column;
+  }
 
   //opacity: 0;
   //animation: fade-up 1200ms ease;
