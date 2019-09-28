@@ -1,5 +1,4 @@
 import React from 'react';
-import PropTypes from 'prop-types';
 import Nav from '../components/Nav';
 import PolaroidStrip from '../components/PolaroidStrip';
 import Footer from "../components/Footer";
@@ -15,10 +14,6 @@ const AboutMe = () => {
             <Footer/>
         </div>
     );
-};
-
-AboutMe.propTypes = {
-
 };
 
 export default AboutMe;

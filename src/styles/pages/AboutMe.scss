@@ -10,10 +10,11 @@
   }
 }
 
+// TODO: choose style
 .AboutMe p {
-  @media (max-width: 1000px) {
+  //@media (max-width: 1000px) {
     text-align: center;
-  }
+  //}
 }
 
 .AboutMe__content {

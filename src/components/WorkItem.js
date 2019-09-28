@@ -25,7 +25,10 @@ const WorkItem = ({ src, company, date, position }) => {
 };
 
 WorkItem.propTypes = {
-
+    src: PropTypes.string.isRequired,
+    company: PropTypes.string.isRequired,
+    date: PropTypes.string.isRequired,
+    position: PropTypes.string.isRequired,
 };
 
 export default WorkItem;

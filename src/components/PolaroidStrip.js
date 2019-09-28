@@ -1,5 +1,4 @@
 import React from 'react';
-import PropTypes from 'prop-types';
 import PolaroidImage from './PolaroidImage';
 import SophiaImg from "../imgs/soph.JPG";
 import SillyImg from "../imgs/silly.JPG";
@@ -15,10 +14,6 @@ const PolaroidStrip = () => {
             <PolaroidImage src={HannahImg} />
         </div>
     );
-};
-
-PolaroidStrip.propTypes = {
-
 };
 
 export default PolaroidStrip;
