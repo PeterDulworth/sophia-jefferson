@@ -1,0 +1,35 @@
+.Nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+
+    margin-bottom: 1rem;
+}
+
+.Nav__logo {
+    font-size: 3.6rem;
+    font-weight: bold;
+    color: $accent;
+
+    margin-bottom: 5px;
+}
+
+.Nav__content {
+    color: get-color(black, 400);
+
+    display: flex;
+    flex-direction: row;
+}
+
+.Nav__link {
+    text-decoration: none;
+    font-size: 1.5rem;
+    color: get-color(black, 600);
+    padding: 0 1rem;
+}
+
+.Nav__link--active, .Nav__link:hover {
+    cursor: pointer;
+    color: white;
+}

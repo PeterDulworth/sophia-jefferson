@@ -1,0 +1,12 @@
+@keyframes fade-up {
+    from {
+        transform: translateY(50px);
+        transform: scale(0.9);
+        opacity: 0.0;
+    }
+    to {
+        transform: translateY(0);
+        transform: scale(1.0);
+        opacity: 1.0;
+    }
+}

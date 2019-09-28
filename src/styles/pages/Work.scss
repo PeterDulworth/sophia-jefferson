@@ -1,0 +1,46 @@
+.Work {
+  position: relative;
+  margin: 0 13rem;
+  padding-top: 5rem;
+}
+
+.Work__headlines {
+  margin: 5rem 0;
+}
+
+.Work__headline {
+  font-size: 3rem;
+  margin: 2rem 0;
+  opacity: 0;
+
+  &_1 {
+    text-align: left;
+    animation: fade-up 800ms ease-out;
+    animation-delay: 0ms;
+    animation-fill-mode: forwards;
+  }
+
+  &_2 {
+    text-align: center;
+    animation: fade-up 800ms ease-out;
+    animation-delay: 400ms;
+    animation-fill-mode: forwards;
+  }
+
+  &_3 {
+    text-align: right;
+    animation: fade-up 800ms ease-out;
+    animation-delay: 800ms;
+    animation-fill-mode: forwards;
+  }
+}
+
+.Work__content {
+  margin-top: 30vh;
+  width: 100%;
+
+  display: flex;
+  justify-content: flex-start;
+  align-content: flex-start;
+  padding-bottom: 5rem;
+}

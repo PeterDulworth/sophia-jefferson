@@ -1,0 +1,22 @@
+.PolaroidStrip {
+  display: inline-flex;
+  flex-direction: row;
+  align-items: center;
+
+  background: get-color(black, 100);
+  padding: 1.5rem 1.5rem;
+  animation: fade-up 800ms ease-out;
+
+  margin-top: 140px;
+
+  width: 75vw;
+  max-width: 1000px;
+}
+
+.PolaroidStrip > * {
+  margin-right: 1.5rem;
+}
+
+.PolaroidStrip > *:nth-last-child(1) {
+  margin-right: 0;
+}

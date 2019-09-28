@@ -1,7 +1,7 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 
-const SidePanel = (props) => {
+const SidePanel = () => {
     return (
         <div className="SidePanel__wrapper">
             <div className="SidePanel">

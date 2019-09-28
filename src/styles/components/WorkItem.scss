@@ -1,0 +1,27 @@
+.WorkItem {
+  background: white;
+  border-radius: 0.5rem;
+  overflow: hidden;
+  margin: 1rem;
+  width: 40rem;
+  height: 20rem;
+  display: inline-flex;
+  justify-content: center;
+}
+
+.WorkItem:nth-of-type(odd) {
+  margin-left: 0;
+}
+
+.WorkItem:nth-of-type(even) {
+  margin-right: 0;
+}
+
+.WorkItem:hover {
+  opacity: 0.8;
+}
+
+.WorkItem img {
+  width: 20rem;
+  height: 20rem;
+}
