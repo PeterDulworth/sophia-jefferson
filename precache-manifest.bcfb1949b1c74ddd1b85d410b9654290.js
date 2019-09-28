@@ -1,19 +1,19 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "cae9e59bdb27a445e6365eeb335c88b9",
+    "revision": "aeb97fd9e9e63746848ce079011d16fd",
     "url": "/sophia-jefferson/index.html"
   },
   {
-    "revision": "911cb4308b292dd98e0e",
-    "url": "/sophia-jefferson/static/css/main.3805b360.chunk.css"
+    "revision": "874ad0dc266f2104825a",
+    "url": "/sophia-jefferson/static/css/main.a948c063.chunk.css"
   },
   {
     "revision": "5dcb022c24615f6b8d8f",
     "url": "/sophia-jefferson/static/js/2.0e4a2d25.chunk.js"
   },
   {
-    "revision": "911cb4308b292dd98e0e",
-    "url": "/sophia-jefferson/static/js/main.141b0d88.chunk.js"
+    "revision": "874ad0dc266f2104825a",
+    "url": "/sophia-jefferson/static/js/main.67e5a662.chunk.js"
   },
   {
     "revision": "59a391493c52c7362a06",
