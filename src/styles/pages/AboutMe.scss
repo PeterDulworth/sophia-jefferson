@@ -2,14 +2,20 @@
   position: relative;
   margin: 0 13rem;
   padding-top: 5rem;
+
+  @media (max-width: 1000px) {
+    margin: 0 3rem;
+  }
+}
+
+.AboutMe p {
+  @media (max-width: 1000px) {
+    text-align: center;
+  }
 }
 
 .AboutMe__content {
   width: 100%;
   display: flex;
   justify-content: center;
-}
-
-.AboutMe p {
-  //font-family: 'Poppins', Serif, serif;
 }

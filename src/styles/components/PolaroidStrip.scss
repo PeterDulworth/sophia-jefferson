@@ -6,17 +6,30 @@
   background: get-color(black, 100);
   padding: 1.5rem 1.5rem;
   animation: fade-up 800ms ease-out;
-
   margin-top: 140px;
-
   width: 75vw;
   max-width: 1000px;
+
+  @media (max-width: 1000px) {
+    flex-direction: column;
+    padding: 1.5rem;
+    margin-bottom: 3rem;
+  }
 }
 
 .PolaroidStrip > * {
   margin-right: 1.5rem;
+
+  @media (max-width: 1000px) {
+    margin-right: 0;
+    margin-bottom: 1rem;
+  }
 }
 
-.PolaroidStrip > *:nth-last-child(1) {
+.PolaroidStrip > *:last-child {
   margin-right: 0;
+
+  @media (max-width: 1000px) {
+    margin: 0;
+  }
 }
