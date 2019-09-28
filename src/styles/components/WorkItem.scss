@@ -25,7 +25,7 @@
 }
 
 .WorkItem:hover {
-  background: get-color(black, 500);
+  background: get-color(black, 300);
 }
 
 .WorkItem img {
@@ -40,13 +40,22 @@
 
 .WorkItem__description {
   color: black;
-  font-weight: bold;
-  font-size: 1.5rem;
   padding: 1rem;
+  font-family: 'Poppins', serif;
 
   animation-duration: 800ms;
   animation-timing-function: ease-in-out;
   animation-name: bounceIn;
+}
+
+.WorkItem__company {
+  text-align: center;
+  font-weight: bold;
+  font-size: 1.5rem;
+}
+
+.WorkItem__position {
+  font-size: 1rem;
 }
 
 @keyframes bounceIn {

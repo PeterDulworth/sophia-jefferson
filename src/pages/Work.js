@@ -15,8 +15,8 @@ const Work = () => {
                 <div className="Work__headline Work__headline_3">Contributor</div>
             </div>
             <div className="Work__content">
-                <WorkItem src={InstagramImage} description={'SWE Intern - Summer 2019'} />
-                <WorkItem src={JPMImage} description={'Corporate Summer Analyst - Summer 2018'} />
+                <WorkItem src={InstagramImage} company="Instagram 📸" date="Summer 2019" position="SWE Intern" />
+                <WorkItem src={JPMImage} company="J.P. Morgan 💳" date="Summer 2018" position="Corporate Summer Analyst" />
             </div>
         </div>
     );

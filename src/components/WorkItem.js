@@ -1,12 +1,15 @@
 import React, { useState } from 'react';
 import PropTypes from 'prop-types';
 
-const WorkItem = ({ src, description }) => {
+const WorkItem = ({ src, company, date, position }) => {
     const imgDiv = <img src={src} alt="work item"/>;
     const [content, setContent] = useState(imgDiv);
 
     const handleMouseEnter = () => {
-        const descriptionDiv = <div className="WorkItem__description">{description}</div>;
+        const descriptionDiv = (<div className="WorkItem__description">
+            <div className="WorkItem__company">{company}</div>
+            <div className="WorkItem__position">{position} - <span className="WorkItem__date">{date}</span></div>
+        </div>);
         setContent(descriptionDiv);
     };
 
