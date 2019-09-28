@@ -1,19 +1,19 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "2f947fc73297d8b5144b367603bb61b6",
+    "revision": "c3119fadfab9c9546d6ad89ecb9f7aa9",
     "url": "/sophia-jefferson/index.html"
   },
   {
-    "revision": "59ee1d9638a7d96b5f14",
-    "url": "/sophia-jefferson/static/css/main.fdd9db67.chunk.css"
+    "revision": "297c950347b9410455e3",
+    "url": "/sophia-jefferson/static/css/main.93cd5562.chunk.css"
   },
   {
-    "revision": "47eaf4f92d82170ef3a6",
-    "url": "/sophia-jefferson/static/js/2.818de4a2.chunk.js"
+    "revision": "6fa4a2e38ff4022ffd25",
+    "url": "/sophia-jefferson/static/js/2.9b8afc38.chunk.js"
   },
   {
-    "revision": "59ee1d9638a7d96b5f14",
-    "url": "/sophia-jefferson/static/js/main.e9b830e6.chunk.js"
+    "revision": "297c950347b9410455e3",
+    "url": "/sophia-jefferson/static/js/main.9ad5a790.chunk.js"
   },
   {
     "revision": "59a391493c52c7362a06",
@@ -26,6 +26,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "7503ca73c283e3e8fc6a8b348076b601",
     "url": "/sophia-jefferson/static/media/hannah.7503ca73.JPG"
+  },
+  {
+    "revision": "6bbf6514049be750e6d0a38ce9447b0b",
+    "url": "/sophia-jefferson/static/media/instagram.6bbf6514.jpg"
   },
   {
     "revision": "d26d8db670b3012f7f9ce541c6ca9739",
