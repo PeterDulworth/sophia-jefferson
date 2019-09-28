@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "6e3590b9923848acd0a14ed37c934474",
+    "revision": "53f05354a89778f2a3f93551167a454d",
     "url": "/sophia-jefferson/index.html"
   },
   {
-    "revision": "bccd405655bf64e04c7a",
+    "revision": "6e0c0465fbc078ec0d3d",
     "url": "/sophia-jefferson/static/css/main.0e521039.chunk.css"
   },
   {
@@ -12,8 +12,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/sophia-jefferson/static/js/2.abddaa0e.chunk.js"
   },
   {
-    "revision": "bccd405655bf64e04c7a",
-    "url": "/sophia-jefferson/static/js/main.4cc54b0f.chunk.js"
+    "revision": "6e0c0465fbc078ec0d3d",
+    "url": "/sophia-jefferson/static/js/main.7b0dccac.chunk.js"
   },
   {
     "revision": "59a391493c52c7362a06",
