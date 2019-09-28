@@ -2,6 +2,7 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import Nav from '../components/Nav';
 import PolaroidStrip from '../components/PolaroidStrip';
+import Footer from "../components/Footer";
 
 const AboutMe = () => {
     return (
@@ -11,6 +12,7 @@ const AboutMe = () => {
             <div className="AboutMe__content">
                 <PolaroidStrip />
             </div>
+            <Footer/>
         </div>
     );
 };

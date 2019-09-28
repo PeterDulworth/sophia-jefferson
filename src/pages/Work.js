@@ -4,6 +4,7 @@ import Nav from '../components/Nav';
 import WorkItem from "../components/WorkItem";
 import InstagramImage from "../imgs/instagram.jpg";
 import JPMImage from "../imgs/jpmorgan2.png";
+import Footer from "../components/Footer";
 
 const Work = () => {
     return (
@@ -18,6 +19,7 @@ const Work = () => {
                 <WorkItem src={InstagramImage} company="Instagram 📸" date="Summer 2019" position="SWE Intern" />
                 <WorkItem src={JPMImage} company="J.P. Morgan 💳" date="Summer 2018" position="Corporate Summer Analyst" />
             </div>
+            <Footer/>
         </div>
     );
 };
