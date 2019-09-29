@@ -1,8 +1,10 @@
 import React, { useState } from 'react';
 import PropTypes from 'prop-types';
+import { Redirect } from 'react-router-dom';
 
-const WorkItem = ({ src, company, date, position }) => {
+const WorkItem = ({ src, href, company, date, position }) => {
     const imgDiv = <img src={src} alt="work item"/>;
+    const [redirect, setRedirect] = useState(null);
     const [content, setContent] = useState(imgDiv);
 
     const handleMouseEnter = () => {
@@ -17,15 +19,21 @@ const WorkItem = ({ src, company, date, position }) => {
         setContent(imgDiv);
     };
 
+    const handleClick = () => {
+        setRedirect(<Redirect to={href} />);
+    };
+
     return (
-        <div className="WorkItem" onMouseEnter={handleMouseEnter} onMouseLeave={handleMouseLeave}>
+        <div className="WorkItem" onClick={handleClick} onMouseEnter={handleMouseEnter} onMouseLeave={handleMouseLeave}>
             {content}
+            {redirect}
         </div>
     );
 };
 
 WorkItem.propTypes = {
     src: PropTypes.string.isRequired,
+    href: PropTypes.string.isRequired,
     company: PropTypes.string.isRequired,
     date: PropTypes.string.isRequired,
     position: PropTypes.string.isRequired,

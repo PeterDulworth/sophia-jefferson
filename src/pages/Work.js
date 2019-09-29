@@ -2,7 +2,7 @@ import React from 'react';
 import Nav from '../components/Nav';
 import WorkItem from "../components/WorkItem";
 import InstagramImage from "../imgs/instagram.jpg";
-import JPMImage from "../imgs/jpmorgan2.png";
+import JPMImage from "../imgs/jpmorgan.png";
 import Footer from "../components/Footer";
 
 const Work = () => {
@@ -15,8 +15,8 @@ const Work = () => {
                 <div className="Work__headline Work__headline_3">Contributor</div>
             </div>
             <div className="Work__content">
-                <WorkItem src={InstagramImage} company="Instagram 📸" date="Summer 2019" position="SWE Intern" />
-                <WorkItem src={JPMImage} company="J.P. Morgan 💳" date="Summer 2018" position="Corporate Summer Analyst" />
+                <WorkItem src={InstagramImage} href="/instagram" company="Instagram 📸" date="Summer 2019" position="SWE Intern" />
+                <WorkItem src={JPMImage} href="/jpmorgan" company="J.P. Morgan 💳" date="Summer 2018" position="Corporate Summer Analyst" />
             </div>
             <Footer/>
         </div>

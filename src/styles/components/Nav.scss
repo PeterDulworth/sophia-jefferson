@@ -1,13 +1,9 @@
 .Nav {
     display: flex;
-    flex-direction: column; // TODO choose style
+    flex-direction: column;
     justify-content: space-between;
     align-items: center;
-
-    @media (max-width: 1000px) {
-        flex-direction: column;
-    }
-
+    cursor: pointer;
     margin-bottom: 1rem;
 }
 

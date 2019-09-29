@@ -3,7 +3,7 @@ import PropTypes from 'prop-types';
 
 const PolaroidImage = ({ src }) => {
     return (
-        <img src={src} alt="bike" className="Card" />
+        <img src={src} alt="bike" className="PolaroidImage" />
     );
 };
 
