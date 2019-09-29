@@ -20,7 +20,7 @@ const WorkItem = ({ src, href, company, date, position }) => {
     };
 
     const handleClick = () => {
-        setRedirect(<Redirect to={href} />);
+        setRedirect(<Redirect to={process.env.PUBLIC_URL + href} />);
     };
 
     return (

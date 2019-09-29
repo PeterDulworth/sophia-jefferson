@@ -6,7 +6,7 @@ const Nav = ({ links, active }) => {
     const [redirect, setRedirect] = useState(null);
 
     const handleClick = () => {
-        setRedirect(<Redirect to="/" />);
+        setRedirect(<Redirect to={`${process.env.PUBLIC_URL}/`} />);
     };
 
     return (
