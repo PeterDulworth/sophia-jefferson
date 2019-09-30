@@ -7,7 +7,7 @@ const AboutMe = () => {
     return (
         <div className="AboutMe">
             <Nav links={[ { label: 'About Me', href: '/' }, { label: 'Work', href: '/work'} ]} active="/" />
-            <p>I'm pretty and I'm right.</p>
+            <p>Rice CS 2020</p>
             <div className="AboutMe__content">
                 <PolaroidStrip />
             </div>
