@@ -11,7 +11,7 @@ const Footer = () => {
             </div>
                 <div className="Footer__social">
                     <a target="_blank" rel="noopener noreferrer" href="https://www.linkedin.com/in/sophia-j-b9097a129/">LinkedIn</a>
-                    <a target="_blank" rel="noopener noreferrer" href="http://sophiajefferson.com/resume">Resume</a>
+                    <a target="_blank" rel="noopener noreferrer" href="http://sophiajefferson.com/resume/sophiajefferson.pdf">Resume</a>
                     <a target="_blank" rel="noopener noreferrer" href="https://www.instagram.com/isticatedsoph/">Instagram</a>
                 </div>
         </div>
