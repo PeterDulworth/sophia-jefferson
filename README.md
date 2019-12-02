@@ -1,3 +1,4 @@
+## Deploy
 to deploy to sophiajefferson.com, change the "homepage" field in `package.json` to 
 ```javascript
 "homepage": "http://sophiajefferson.com/",
