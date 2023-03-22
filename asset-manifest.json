@@ -1,20 +1,18 @@
 {
   "files": {
-    "main.css": "/sophia-jefferson/static/css/main.def04546.chunk.css",
-    "main.js": "/sophia-jefferson/static/js/main.e0c3d475.chunk.js",
-    "main.js.map": "/sophia-jefferson/static/js/main.e0c3d475.chunk.js.map",
-    "runtime~main.js": "/sophia-jefferson/static/js/runtime~main.628b2931.js",
-    "runtime~main.js.map": "/sophia-jefferson/static/js/runtime~main.628b2931.js.map",
-    "static/js/2.88929704.chunk.js": "/sophia-jefferson/static/js/2.88929704.chunk.js",
-    "static/js/2.88929704.chunk.js.map": "/sophia-jefferson/static/js/2.88929704.chunk.js.map",
+    "main.css": "/sophia-jefferson/static/css/main.f6899a5a.css",
+    "main.js": "/sophia-jefferson/static/js/main.78e40c81.js",
+    "static/media/hannah.JPG": "/sophia-jefferson/static/media/hannah.314a27d97a6f12a9ca30.JPG",
+    "static/media/soph.JPG": "/sophia-jefferson/static/media/soph.bd46c1fd0ea653811d65.JPG",
+    "static/media/silly.JPG": "/sophia-jefferson/static/media/silly.df3345f1948b54c2f329.JPG",
+    "static/media/bike.JPG": "/sophia-jefferson/static/media/bike.d520d9cda86696795103.JPG",
+    "static/media/instagram.jpg": "/sophia-jefferson/static/media/instagram.82e6d25746e3c7eaf383.jpg",
     "index.html": "/sophia-jefferson/index.html",
-    "precache-manifest.7e0aaa6f87b5a601968f563c0c428872.js": "/sophia-jefferson/precache-manifest.7e0aaa6f87b5a601968f563c0c428872.js",
-    "service-worker.js": "/sophia-jefferson/service-worker.js",
-    "static/css/main.def04546.chunk.css.map": "/sophia-jefferson/static/css/main.def04546.chunk.css.map",
-    "static/media/bike.JPG": "/sophia-jefferson/static/media/bike.adf9dc5f.JPG",
-    "static/media/hannah.JPG": "/sophia-jefferson/static/media/hannah.7503ca73.JPG",
-    "static/media/instagram.jpg": "/sophia-jefferson/static/media/instagram.6bbf6514.jpg",
-    "static/media/silly.JPG": "/sophia-jefferson/static/media/silly.d26d8db6.JPG",
-    "static/media/soph.JPG": "/sophia-jefferson/static/media/soph.a2ca14f7.JPG"
-  }
+    "main.f6899a5a.css.map": "/sophia-jefferson/static/css/main.f6899a5a.css.map",
+    "main.78e40c81.js.map": "/sophia-jefferson/static/js/main.78e40c81.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.f6899a5a.css",
+    "static/js/main.78e40c81.js"
+  ]
 }
