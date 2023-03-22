@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/sophia-jefferson/static/css/main.f6899a5a.css",
-    "main.js": "/sophia-jefferson/static/js/main.78e40c81.js",
+    "main.css": "/sophia-jefferson/static/css/main.5e0d699d.css",
+    "main.js": "/sophia-jefferson/static/js/main.9f38dea9.js",
     "static/media/hannah.JPG": "/sophia-jefferson/static/media/hannah.314a27d97a6f12a9ca30.JPG",
     "static/media/soph.JPG": "/sophia-jefferson/static/media/soph.bd46c1fd0ea653811d65.JPG",
     "static/media/silly.JPG": "/sophia-jefferson/static/media/silly.df3345f1948b54c2f329.JPG",
     "static/media/bike.JPG": "/sophia-jefferson/static/media/bike.d520d9cda86696795103.JPG",
     "static/media/instagram.jpg": "/sophia-jefferson/static/media/instagram.82e6d25746e3c7eaf383.jpg",
     "index.html": "/sophia-jefferson/index.html",
-    "main.f6899a5a.css.map": "/sophia-jefferson/static/css/main.f6899a5a.css.map",
-    "main.78e40c81.js.map": "/sophia-jefferson/static/js/main.78e40c81.js.map"
+    "main.5e0d699d.css.map": "/sophia-jefferson/static/css/main.5e0d699d.css.map",
+    "main.9f38dea9.js.map": "/sophia-jefferson/static/js/main.9f38dea9.js.map"
   },
   "entrypoints": [
-    "static/css/main.f6899a5a.css",
-    "static/js/main.78e40c81.js"
+    "static/css/main.5e0d699d.css",
+    "static/js/main.9f38dea9.js"
   ]
 }
